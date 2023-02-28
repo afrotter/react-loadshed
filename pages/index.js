@@ -15,12 +15,11 @@ export default function Home({results}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+        <h1>Are we loadshedding?</h1>
+        <section id="loadshed">
+          Eskom is currently loadshedding at Stage {results-1}
+        </section>
       
-    <div>
-      <h1>Loadshed</h1>
-      Eskom is currently loadshedding at Stage {results-1}
-    </div>
-
     </>
   )
 }
